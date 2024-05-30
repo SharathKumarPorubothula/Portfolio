@@ -589,24 +589,133 @@ margin-top: 20px;
     .project{
         width: 100px;
     }
+    .section1{
+        height: auto;
+    }
+    .sec11{
+        height: auto;
+    }
+    .sec12{
+        height:450px
+    }
+    .section2{
+        height: auto;
+        margin-top: 20px;
+    }
+    .sec21{
+        height: auto;
+    }
+    .sec22{
+        height: auto;
+    }
+    .section2{
+        height: auto;
+        margin-top: 20px;
+    }
+    .sec21{
+        height: auto;
+    }
+    .sec22{
+        height: auto;
+    }
+    .section3{
+        height: auto;
+        margin-top: 20px;
+    }
+    .sec31{
+        height: auto;
+    }
+    .sec32{
+        height: auto;
+    }
+    .section4{
+        height: auto;
+        margin-top: 20px;
+    }
+    .projects_list{
+        height: auto;
+    }
+    .section5{
+        height: auto;
+    }
+    .certification{
+        height: auto;
+    }
+    .section6{
+        height: auto;
+        margin-top: 20px;
+    }
 }
 @media (max-width:520px) {
     .projects_list{
         grid-template-columns: 1fr 1fr;
     }
     .section4{
-        height: 800px;
+        height:auto;
     }
     .section1{
-        margin-top: -100px;
-        overflow: hidden;
+        height: auto;
     }
+    
     .d1 img{
         width: 15px;
         height: 15px;
      }
+     .section2{
+        height: auto;
+        margin-top: 20px;
+    }
+    .sec31{
+        height: auto;
+    }
+    .sec32{
+        height: auto;
+    }
+    .sec21{
+        height: auto;
+    }
+    .sec22{
+        height: auto;
+    }
+    .section4{
+        height: auto;
+        margin-top: 20px;
+    }
+    .projects_list{
+        height: auto;
+    }
+    .section5{
+        height: auto;
+    }
+    .certification{
+        height: auto;
+    }
+    .section6{
+        height: auto;
+        margin-top: 20px;
+    }
 }
 @media (max-width:480px) {
+    .section1{
+        height: auto;
+    }
+    @keyframes image {
+        0%{
+            margin-top: -15px;
+        }
+        50%{
+            margin-top: 15px;
+        }
+        100%{
+            margin-top: -15px;
+        }
+    }
+    .sec11{
+        height: auto;
+    }
+    .sec12{
+        height: 200px;
+    }
     .sec12 div{
         max-height: 150px;
         max-width: 150px;
@@ -633,6 +742,16 @@ margin-top: 20px;
         width: 2px;
         height: 2px;
     }
+    .section2{
+        height: auto;
+        margin-top: 20px;
+    }
+    .sec21{
+        height: auto;
+    }
+    .sec22{
+        height: auto;
+    }
     .sec21 img{
         max-width: 200px;
         max-height: 200px;
@@ -654,6 +773,16 @@ margin-top: 20px;
     .sec22 h1{
         font-size: 15px;
         width: 100px;
+    }
+    .section3{
+        height: auto;
+        margin-top: 20px;
+    }
+    .sec31{
+        height: auto;
+    }
+    .sec32{
+        height: auto;
     }
     .section3 h3{
         font-size: 12px;
@@ -730,7 +859,24 @@ margin-top: 20px;
         width: 15px;
         height: 15px;
     }
-    .section1{
+    .section4{
+        height: auto;
+        margin-top: 20px;
+    }
+    .projects_list{
+        height: auto;
+    }
+    .section5{
+        height: auto;
+    }
+    .certification{
+        height: auto;
+    }
+    .section6{
+        height: auto;
+        margin-top: 20px;
+    }
+    /* .section1{
         margin-top: -100px;
     }
     .section2{
@@ -744,7 +890,7 @@ margin-top: 20px;
     }
     .section6{
         margin-top: -100px;
-    }
+    } */
 }
  /* @media (max-with:355px) {
     .section1{
