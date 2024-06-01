@@ -584,47 +584,15 @@ margin-top: 20px;
         width: 18px;
         height: 18px;
      }
-     .section1{
+     .section4{
         height: auto;
-    }
-    
-    .d1 img{
-        width: 15px;
-        height: 15px;
      }
-     .section2{
+     .projects_list{
         height: auto;
-        margin-top: 20px;
-    }
-    .sec31{
-        height: auto;
-    }
-    .sec32{
-        height: auto;
-    }
-    .sec21{
-        height: auto;
-    }
-    .sec22{
-        height: auto;
-    }
-    .section4{
-        height: auto;
-        margin-top: 20px;
-    }
-    .projects_list{
-        height: auto;
-    }
-    .section5{
-        height: auto;
-    }
-    .certification{
-        height: auto;
-    }
-    .section6{
-        height: auto;
-        margin-top: 20px;
-    }
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+     }
+     
 }
 @media (max-width:590px) {
     .project{
